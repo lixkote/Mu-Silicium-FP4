@@ -62,10 +62,10 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"FP_FP4"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Fairphone 4"
 
-  # Simple FrameBuffer
-  gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
-  gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferColorDepth|24
+  # Simple Frame Buffer
+  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1080
+  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2340
+  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|24
 
   # Dynamic RAM Start Address
   gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xB0EA0000
@@ -85,5 +85,11 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|123
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|135
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutRow|123
+
+[LibraryClasses]
+  DeviceMemoryMapLib|FP4Pkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
+  DeviceConfigurationMapLib|FP4Pkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
+  DeviceGuidLib|FP4Pkg/Library/DeviceGuidLib/DeviceGuidLib.inf
+  AcpiDeviceUpdateLib|SiliciumPkg/Library/AcpiDeviceUpdateLibNull/AcpiDeviceUpdateLibNull.inf
 
 !include LagoonPkg/LagoonPkg.dsc.inc

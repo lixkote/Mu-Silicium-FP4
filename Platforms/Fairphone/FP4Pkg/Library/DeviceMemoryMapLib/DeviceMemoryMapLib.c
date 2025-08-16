@@ -111,7 +111,6 @@ gDeviceMemoryDescriptorEx[] = {
   {"TzAppsRegnAddr", 0xc1700000},
   {"TzAppsRegnSize", 0x2200000},
   {"EnableLogFsSyncInRetail", 0x0},
-  {"EnableSecurityHoleForSplashPartition", 0x0},
   {"ShmBridgememSize", 0xa00000},
   {"EnableMultiThreading", 0x1},
   {"MaxCoreCnt", 0x8},

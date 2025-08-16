@@ -15,9 +15,9 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/CmdDbDxe/CmdDbDxe.inf
-  INF Binaries/dodge/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf
-  INF Binaries/dodge/QcomPkg/Drivers/NpaDxe/NpaDxe.inf
-  INF Binaries/dodge/QcomPkg/Drivers/RpmhDxe/RpmhDxe.inf
+  INF Binaries/FP4/QcomPkg/Drivers/PwrUtilsDxe/PwrUtilsDxe.inf
+  INF Binaries/FP4/QcomPkg/Drivers/NpaDxe/NpaDxe.inf
+  INF Binaries/FP4/QcomPkg/Drivers/RpmhDxe/RpmhDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/PdcDxe/PdcDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ClockDxe/ClockDxe.inf
   INF QcomPkg/Drivers/CpuClockHandlerDxe/CpuClockHandlerDxe.inf
@@ -26,8 +26,6 @@ APRIORI DXE {
   INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
   INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
   INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
-  INF MdeModulePkg/Universal/FvSimpleFileSystemDxe.inf
-
   INF Binaries/FP4/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
 
