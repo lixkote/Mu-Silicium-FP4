@@ -35,7 +35,7 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
   INF FatPkg/EnhancedFatDxe/Fat.inf
   INF Binaries/FP4/QcomPkg/Drivers/TzDxe/TzDxeLA.inf
-  INF Binaries/FP4/QcomPkg/Drivers/VariableDxe/VariableDxe.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/VariableDxe/VariableDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
   # DALTMLMM <- no idea what that even is lol so ima just replace that with TLMMDxe
