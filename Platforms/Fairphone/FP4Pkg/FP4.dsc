@@ -37,10 +37,6 @@
 [BuildOptions]
   *_*_*_CC_FLAGS = -DSOC_TYPE=$(SOC_TYPE) -DHAS_BUILD_IN_KEYBOARD=$(HAS_BUILD_IN_KEYBOARD)
 
-[LibraryClasses]
-  DeviceMemoryMapLib|FP4Pkg/Library/DeviceMemoryMapLib/DeviceMemoryMapLib.inf
-  DeviceConfigurationMapLib|FP4Pkg/Library/DeviceConfigurationMapLib/DeviceConfigurationMapLib.inf
-
 [PcdsFixedAtBuild]
   # DDR Start Address
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80860000
@@ -70,7 +66,7 @@
   # Platform Pei
   gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"      
   gQcomPkgTokenSpaceGuid.PcdScheduleInterfaceAddr|0x9FC30960
-  
+
   # Dynamic RAM Start Address
   gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xB0EA0000
 
