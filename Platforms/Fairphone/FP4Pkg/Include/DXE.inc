@@ -12,7 +12,7 @@
   INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
   INF MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe/ReportStatusCodeRouterRuntimeDxe.inf
   INF MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntimeDxe.inf
-  # INF Binaries/FP4/QcomPkg/Drivers/VariableDxe/VariableDxe.inf
+  INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
   INF EmbeddedPkg/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
   INF EmbeddedPkg/SimpleTextInOutSerial/SimpleTextInOutSerial.inf
   INF MdeModulePkg/Universal/ResetSystemRuntimeDxe/ResetSystemRuntimeDxe.inf
@@ -50,6 +50,7 @@
   INF Binaries/FP4/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/VcsDxe/VcsDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ClockDxe/ClockDxe.inf
+  INF QcomPkg/Drivers/CpuClockHandlerDxe/CpuClockHandlerDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/GpiDxe/GpiDxe.inf
@@ -58,8 +59,8 @@
   INF Binaries/FP4/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/MinidumpTADxe/MinidumpTADxe.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/MinidumpTADxe/MinidumpTADxe.inf
 
 !if $(USE_CUSTOM_DISPLAY_DRIVER) == 1
   INF Binaries/FP4/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
@@ -70,13 +71,14 @@
   INF Binaries/FP4/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
-  INF Binaries/FP4/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf
+    INF Binaries/FP4/QcomPkg/Drivers/AdcDxe/AdcDxe.inf
+ INF Binaries/FP4/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLA.inf
   INF Binaries/FP4/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/AdcDxe/AdcDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/TsensDxe/TsensDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
+  INF QcomPkg/Drivers/DdrClockHandlerDxe/DdrClockHandlerDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
 
   INF MdeModulePkg/Bus/Usb/UsbBusDxe/UsbBusDxe.inf
@@ -91,7 +93,9 @@
   INF Binaries/FP4/QcomPkg/Drivers/CipherDxe/CipherDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/MacDxe/MacDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/RNGDxe/RngDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/QcomBds/QcomBds.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/QcomBds/QcomBds.inf
+    INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
+
   INF Binaries/FP4/QcomPkg/Drivers/PILDxe/PILDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf
   # FvDxe <- no idea what's that

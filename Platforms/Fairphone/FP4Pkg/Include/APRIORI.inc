@@ -25,6 +25,7 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/PdcDxe/PdcDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/VcsDxe/VcsDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ClockDxe/ClockDxe.inf
+  INF QcomPkg/Drivers/CpuClockHandlerDxe/CpuClockHandlerDxe.inf
   # INF QcomPkg/Drivers/ClockSpeedUpDxe/ClockSpeedUpDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
   INF Binaries/FP4/QcomPkg/Drivers/TzDxe/ScmDxeLA.inf
@@ -35,18 +36,19 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
   INF FatPkg/EnhancedFatDxe/Fat.inf
   INF Binaries/FP4/QcomPkg/Drivers/TzDxe/TzDxeLA.inf
-  # INF Binaries/FP4/QcomPkg/Drivers/VariableDxe/VariableDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
+  INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
   # DALTMLMM <- no idea what that even is lol so ima just replace that with TLMMDxe
   INF Binaries/FP4/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
+  INF QcomPkg/Drivers/DdrClockHandlerDxe/DdrClockHandlerDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ResetRuntimeDxe/ResetRuntimeDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
 
   !if $(USE_CUSTOM_DISPLAY_DRIVER) == 1
-    INF Binaries/FP4/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
+   # INF Binaries/FP4/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
   !else
     INF SiliciumPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
   !endif
@@ -57,8 +59,8 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/PILDxe/PILDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/CPRDxe/CPRDxe.inf
   INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
-  INF Binaries/FP4/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/VerifiedBootDxe/VerifiedBootDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/EmbeddedMonotonicCounter/EmbeddedMonotonicCounter.inf
   INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
@@ -67,9 +69,11 @@ APRIORI DXE {
   INF MdeModulePkg/Universal/CapsuleRuntimeDxe/CapsuleRuntimeDxe.inf
   INF MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/FontDxe/FontDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/QcomBds/QcomBds.inf
+  # INF Binaries/FP4/QcomPkg/Drivers/QcomBds/QcomBds.inf
+  INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
+      INF Binaries/FP4/QcomPkg/Drivers/AdcDxe/AdcDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLA.inf
   INF Binaries/FP4/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
