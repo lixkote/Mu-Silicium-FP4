@@ -7,10 +7,6 @@ import datetime
 import logging
 import os
 import uuid
-import sys
-sys.path.append("/home/kamkam/.local/share/pipx/venvs/edk2-pytool-extensions/lib/python3.12/site-packages")
-
-
 
 from io import StringIO
 from pathlib import Path
@@ -43,6 +39,7 @@ class CommonPlatform ():
         "Silicon/Arm/Mu_Tiano",
         "Silicon/Qualcomm",
         "Silicon/Silicium",
+        "Silicium-ACPI/SoCs/Qualcomm"
     )
 
 # ####################################################################################### #

@@ -45,7 +45,7 @@ mArmPlatformMpCoreInfoTable[] = {
     (UINT64)0xFFFFFFFF
   },
   {
-    // Cluster 1, Core 0
+    // Cluster 0, Core 4
     0x400,
 
     // MP Core MailBox Set/Get/Clear Addresses and Clear Value
@@ -55,7 +55,7 @@ mArmPlatformMpCoreInfoTable[] = {
     (UINT64)0xFFFFFFFF
   },
   {
-    // Cluster 1, Core 1
+    // Cluster 0, Core 5
     0x500,
 
     // MP Core MailBox Set/Get/Clear Addresses and Clear Value
@@ -65,7 +65,7 @@ mArmPlatformMpCoreInfoTable[] = {
     (UINT64)0xFFFFFFFF
   },
   {
-    // Cluster 1, Core 2
+    // Cluster 1, Core 0
     0x600,
 
     // MP Core MailBox Set/Get/Clear Addresses and Clear Value
@@ -75,7 +75,7 @@ mArmPlatformMpCoreInfoTable[] = {
     (UINT64)0xFFFFFFFF
   },
   {
-    // Cluster 2, Core 0
+    // Cluster 1, Core 1
     0x700,
 
     // MP Core MailBox Set/Get/Clear Addresses and Clear Value

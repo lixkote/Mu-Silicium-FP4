@@ -1,7 +1,7 @@
 [Defines]
   DEC_SPECIFICATION                   = 0x00010005
-  PACKAGE_NAME                        = a7
-  PACKAGE_GUID                        = 4FF7924B-80E2-4F46-8794-D221D4F6D7DA
+  PACKAGE_NAME                        = FP4
+  PACKAGE_GUID                        = A1DD2A0F-4FF8-449F-AAA6-48F48D89701C
   PACKAGE_VERSION                     = 0.1
 
 [Guids]

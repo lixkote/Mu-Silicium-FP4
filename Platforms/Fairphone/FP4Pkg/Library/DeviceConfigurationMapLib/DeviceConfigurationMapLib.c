@@ -9,7 +9,7 @@ gDeviceConfigurationDescriptorEx[] = {
   {"SharedIMEMBaseAddr", 0x146AA000},
   {"DloadCookieAddr", 0x1FD3000},
   {"DloadCookieValue", 0x10},
-  {"NumCpus", 8},
+  {"NumCpus", 4},
   {"NumActiveCores", 8},
   {"MaxLogFileSize", 0x400000},
   {"UefiMemUseThreshold", 0xC8},

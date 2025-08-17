@@ -1,9 +1,7 @@
-## @file
-#
+## 
 #  Copyright (c) 2018, Linaro Limited. All rights reserved.
 #
 #  SPDX-License-Identifier: BSD-2-Clause-Patent
-#
 ##
 
 ################################################################################
@@ -61,7 +59,7 @@ FV = FVMAIN_COMPACT
 ################################################################################
 
 [FV.FvMain]
-FvNameGuid         = 631008B0-B2D1-410A-8B49-2C5C4D8ECC7E
+FvNameGuid         = 6F420959-27DF-4C8B-80E3-A179E6A171A5
 BlockSize          = 0x1000
 NumBlocks          = 0        # This FV gets compressed so make it just big enough
 FvAlignment        = 8        # FV alignment and FV attributes setting.
@@ -124,7 +122,7 @@ READ_LOCK_STATUS   = TRUE
 
   INF SiliciumPkg/PrePi/PrePi.inf
 
-  FILE FREEFORM = dde58710-41cd-4306-dbfb-3fa90bb1d2dd {
+  FILE FREEFORM = DDE58710-41CD-4306-DBFB-3FA90BB1D2DD {
     SECTION UI = "uefiplat.cfg"
     SECTION RAW = Binaries/FP4/RawFiles/uefiplat.cfg
   }

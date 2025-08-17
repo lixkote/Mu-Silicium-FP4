@@ -8,7 +8,7 @@
 #include <Protocol/EFIScm.h>
 #include <Protocol/scm_sip_interface.h>
 
-#define MAX_DESTINATION_VMS 3
+#define MAX_DESTINATION_VMS 2
 
 EFI_STATUS
 EFIAPI
@@ -41,12 +41,6 @@ RFSProtectSharedArea (
       AC_VM_MSS_MSA, 
       (VM_PERM_R | VM_PERM_W), 
       (UINT64)NULL, 
-      0
-    },
-    {
-      AC_VM_MSS_NAV,
-      (VM_PERM_R | VM_PERM_W),
-      (UINT64)NULL,
       0
     }
   };
