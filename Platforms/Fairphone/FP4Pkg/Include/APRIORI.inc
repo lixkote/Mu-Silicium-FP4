@@ -9,9 +9,9 @@ APRIORI DXE {
   INF ArmPkg/Drivers/ArmGic/ArmGicDxe.inf
   INF EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf
   INF ArmPkg/Drivers/TimerDxe/TimerDxe.inf
-  INF ArmPkg/Drivers/ArmPsciMpServicesDxe/ArmPsciMpServicesDxe.inf
+  # INF ArmPkg/Drivers/ArmPsciMpServicesDxe/ArmPsciMpServicesDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/SmemDxe/SmemDxe.inf
-  INF QcomPkg/Drivers/DynamicRAMDxe/DynamicRAMDxe.inf
+  INF QcomPkg/Drivers/DynamicRamDxe/DynamicRamDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf
@@ -25,7 +25,7 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/PdcDxe/PdcDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/VcsDxe/VcsDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ClockDxe/ClockDxe.inf
-  INF QcomPkg/Drivers/ClockSpeedUpDxe/ClockSpeedUpDxe.inf
+  # INF QcomPkg/Drivers/ClockSpeedUpDxe/ClockSpeedUpDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
   INF Binaries/FP4/QcomPkg/Drivers/TzDxe/ScmDxeLA.inf
   INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
@@ -38,7 +38,6 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/VariableDxe/VariableDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
   # DALTMLMM <- no idea what that even is lol so ima just replace that with TLMMDxe
   INF Binaries/FP4/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
@@ -57,7 +56,6 @@ APRIORI DXE {
   INF Binaries/FP4/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/PILDxe/PILDxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/CPRDxe/CPRDxe.inf
-  INF Binaries/FP4/QcomPkg/Drivers/PILDxe/PILDxe.inf
   INF MdeModulePkg/Universal/WatchdogTimerDxe/WatchdogTimer.inf
   INF Binaries/FP4/QcomPkg/Drivers/ASN1X509Dxe/ASN1X509Dxe.inf
   INF Binaries/FP4/QcomPkg/Drivers/SecRSADxe/SecRSADxe.inf
