@@ -100,7 +100,7 @@
   #
   # Graphics
   #
-  gSiliciumPkgTokenSpaceGuid.PcdDebugFrameBufferDelay|10000          # In Microseconds
+  gSiliciumPkgTokenSpaceGuid.PcdDebugFrameBufferDelay|350000          # In Microseconds
   gEfiMdeModulePkgTokenSpaceGuid.PcdConInConnectOnDemand|TRUE
 
 [PcdsFeatureFlag]
