@@ -3,11 +3,6 @@
       SECTION RAW = Binaries/FP4/RawFiles/BDS_Menu.cfg
   }
 
-  FILE FREEFORM = A91D838E-A5FA-4138-825D-455E23030794 {
-      SECTION UI = "logo1.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/logo1.bmp
-  }
-
   FILE FREEFORM = 8CAE2C55-FC5A-410B-812B-8CA22F572145 {
       SECTION UI = "Panel_rm69299_amoled_fhd_plus_video.xml"
       SECTION RAW = Binaries/FP4/RawFiles/Panel_rm69299_amoled_fhd_plus_video.xml
@@ -96,41 +91,6 @@
   FILE FREEFORM = A74F2B10-A3D6-44AC-8914-EA06963EB902 {
       SECTION UI = "Panel_hx83112a_auo_1080p_video.xml"
       SECTION RAW = Binaries/FP4/RawFiles/Panel_hx83112a_auo_1080p_video.xml
-  }
-
-  FILE FREEFORM = 3E5584ED-05D4-4267-9048-0D47F76F4248 {
-      SECTION UI = "battery_symbol_Soc10.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/battery_symbol_Soc10.bmp
-  }
-
-  FILE FREEFORM = 4753E815-DDD8-402D-BF69-9B8C4EB7573E {
-      SECTION UI = "battery_symbol_NoBattery.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/battery_symbol_NoBattery.bmp
-  }
-
-  FILE FREEFORM = 03DED53E-BECD-428F-9F79-5ABA64C58445 {
-      SECTION UI = "battery_symbol_Nocharger.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/battery_symbol_Nocharger.bmp
-  }
-
-  FILE FREEFORM = 8B86CD38-C772-4FCF-85AA-345B2B3C1AB4 {
-      SECTION UI = "battery_symbol_LowBatteryCharging.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/battery_symbol_LowBatteryCharging.bmp
-  }
-
-  FILE FREEFORM = 3FD97907-93F1-4349-AF3C-3B68B0A5E626 {
-      SECTION UI = "battery_symbol_LowBattery.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/battery_symbol_LowBattery.bmp
-  }
-
-  FILE FREEFORM = E2EA5A4F-98BD-4203-AB49-399505DDFB7D {
-      SECTION UI = "tsens_thermal_symbol.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/tsens_thermal_symbol.bmp
-  }
-
-  FILE FREEFORM = C72FB1A9-5527-4E13-BAC4-F671D0330145 {
-      SECTION UI = "tsens_thermal_err_symbol.bmp"
-      SECTION RAW = Binaries/FP4/RawFiles/tsens_thermal_err_symbol.bmp
   }
 
   FILE FREEFORM = A1E235DE-E825-4591-9623-C43175811826 {

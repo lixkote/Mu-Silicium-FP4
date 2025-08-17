@@ -65,8 +65,12 @@
   # Simple Frame Buffer
   gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferWidth|1080
   gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferHeight|2340
-  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|24
+  gSiliciumPkgTokenSpaceGuid.PcdPrimaryFrameBufferColorDepth|32
 
+  # Platform Pei
+  gQcomPkgTokenSpaceGuid.PcdPlatformType|"LA"      
+  gQcomPkgTokenSpaceGuid.PcdScheduleInterfaceAddr|0x9FC30960
+  
   # Dynamic RAM Start Address
   gQcomPkgTokenSpaceGuid.PcdRamPartitionBase|0xB0EA0000
 

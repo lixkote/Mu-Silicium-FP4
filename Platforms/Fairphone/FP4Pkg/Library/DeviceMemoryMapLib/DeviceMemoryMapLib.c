@@ -3,9 +3,9 @@
 STATIC
 ARM_MEMORY_REGION_DESCRIPTOR_EX
 gDeviceMemoryDescriptorEx[] = {
+  // Name, Address, Length, HobOption, ResourceType, ResourceAttribute, MemoryType, ArmAttribute
+
   // DDR Regions
-  {"LLCC0",             0x09200000, 0x00050000, AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK_XN},
-  {"RAM Partition",     0x09250000, 0x77610000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK_XN},
   {"AOP CMD DB",        0x80860000, 0x00020000, AddMem, MEM_RES, UNCACHEABLE, Reserv, UNCACHED_UNBUFFERED_XN},
   {"RAM Partition",     0x80880000, 0x00080000, AddMem, SYS_MEM, SYS_MEM_CAP, Conv, WRITE_BACK_XN},
   {"SMEM",              0x80900000, 0x00200000, AddMem, MEM_RES, UNCACHEABLE, Reserv, UNCACHED_UNBUFFERED_XN},
@@ -86,39 +86,6 @@ gDeviceMemoryDescriptorEx[] = {
   {"L3_ACD",             0x18294000, 0x00001000, AddDev, MMAP_IO, UNCACHEABLE, MmIO, NS_DEVICE},
   {"APSS_ACTPM_WRAP",    0x18300000, 0x000B0000, AddDev, MMAP_IO, UNCACHEABLE, MmIO, NS_DEVICE},
   {"SMMU",               0x15000000, 0x00200000, AddDev, MMAP_IO, UNCACHEABLE, MmIO, NS_DEVICE},
-
-  // Configuration Map
-  {"NumCpusFuseAddr", 0x5c04c},
-  {"EnableShell", 0x1},
-  {"SharedIMEMBaseAddr", 0x146aa000},
-  {"DloadCookieAddr", 0x1fd3000},
-  {"DloadCookieValue", 0x10},
-  {"NumCpus", 0x8},
-  {"NumActiveCores", 0x8},
-  {"MaxLogFileSize", 0x400000},
-  {"UefiMemUseThreshold", 0xc8},
-  {"USBHS1_Config", 0x0},
-  {"UsbFnIoRevNum", 0x10001},
-  {"PwrBtnShutdownFlag", 0x0},
-  {"Sdc1GpioConfigOn", 0x1e92},
-  {"Sdc2GpioConfigOn", 0x1e92},
-  {"Sdc1GpioConfigOff", 0xa00},
-  {"Sdc2GpioConfigOff", 0xa00},
-  {"EnableSDHCSwitch", 0x1},
-  {"EnableUfsIOC", 0x0},
-  {"UfsSmmuConfigForOtherBootDev", 0x1},
-  {"SecurityFlag", 0xc4},
-  {"TzAppsRegnAddr", 0xc1700000},
-  {"TzAppsRegnSize", 0x2200000},
-  {"EnableLogFsSyncInRetail", 0x0},
-  {"ShmBridgememSize", 0xa00000},
-  {"EnableMultiThreading", 0x1},
-  {"MaxCoreCnt", 0x8},
-  {"EarlyInitCoreCnt", 0x1},
-  {"EnableUefiSecAppDebugLogDump", 0x0},
-  {"AllowNonPersistentVarsInRetail", 0x1},
-  {"EnableThreadDispOpti", 0x0},
-  {"MinidumpTALoadingCfg", 0x0},
 
   // Terminator for MMU
   {"Terminator", 0, 0, 0, 0, 0, 0, 0}
