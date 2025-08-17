@@ -1,8 +1,8 @@
 -- Initial order of Fairphone 4's DXE based on xbl loaded into UEFITool --
 
-DxeCore
-ArmCpuDxe
-RuntimeDxe
+INF MdeModulePkg/Core/Dxe/DxeMain.inf
+INF ArmPkg/Drivers/CpuDxe/CpuDxe.inf
+INF MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
 SecurityStubDxe
 SecRSA2048
 ANSIx509Dxe
